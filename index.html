@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PUP HYMN | Activity 1</title>
+
+    <!-- --css-- -->
+    <link rel="stylesheet" href="main.css">
+
+    <!-- --google fonts-- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- --icons-- -->
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
+
+
+    <link rel="icon" type="image/png" href="PUP-images/PUPLogo.png">
+
+
+</head>
+<body>
+
+  <!-- --section for header-- -->
+    <section class="header">
+        <nav>
+            <a href="index.html">
+                <img src="PUP-images/PUPLogo.png" alt="PUP logo">
+            </a>
+            
+            <div class="nav-schoolName">
+                <h2>POLYTECHNIC UNIVERSITY OF THE PHILIPPINES</h2>
+                <h3>THE COUNTRY'S 1<sup>st</sup> POLYTECHNIC<span>U</span></h3>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-sharp fa-solid fa-circle-xmark" onclick="hideMenu()">
+                </i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#Footer">ABOUT US</a></li>
+                    <li><a href="https://www.pup.edu.ph/academic/programs">ACADEMIC PROGRAM</a></li>
+
+                    <li><a href="https://www.pup.edu.ph/events/">BLOG</a></li>
+                    <li><a href="https://www.pup.edu.ph/about/contactinformation">CONTACT</a></li>
+
+                </ul>
+
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()">
+            </i>
+        </nav>
+
+        <div class="title">
+          <h1>PUP HYMN</h1>
+      
+        </div>
+
+        <!-- --marquee content-- -->
+
+<div class="lyrics">
+  <marquee id="danils" loop="1" behavior="scroll" scrollamount="1" scrolldelay="114" direction="up">
+    Sintang Paaralan
+    <br>
+    Tanglaw ka ng bayan
+    <br>
+    Pandayan ng isip ng kabataan
+    <br>
+    Kami ay dumating nang salat sa yaman
+    <br>
+    Hanap na dunong ay iyong alay
+    <br>
+    Ang layunin mong makatao
+    <br>
+    Dinarangal ang Pilipino
+    <br>
+    Ang iyong aral, diwa, adhikang taglay
+    <br>
+    PUP, aming gabay
+    <br>
+    Paaralang dakila
+    <br>
+    PUP, pinagpala
+    <br>
+    Gagamitin ang karunungan
+    <br>
+    Mula sa iyo, para sa bayan
+    <br>
+    Ang iyong aral, diwa, adhikang taglay
+    <br>
+    PUP, aming gabay
+    <br>
+    Paaralang dakila
+    <br>
+    PUP, pinagpala
+  
+    
+
+</marquee>
+</div>
+
+<!-- -- audio of the web -- -->
+<div class="audio">
+  <audio controls preload="metadata" id="audio" autoplay>
+    <source src="Song/the-pup-hymn-instrumental-version-128-kbps_ZBKpIfPs.mp3" type="audio/ogg">
+    <source src="Song/the-pup-hymn-instrumental-version-128-kbps_ZBKpIfPs.mp3" type="audio/mpeg" >
+    Your Browser Does Not Support The Audio Element.
+  </audio>
+          
+</div>
+
+    <div class="start-stop">
+      <input type="button" onclick="danils.start()" id="start" value="start">
+      <input type="button" id="stop" value="stop">
+  
+      <!-- --small javascript -- -->
+      <script src="index.js">
+       
+
+      </script>
+
+      
+    </div>
+        
+
+    </section>
+
+    <!-- --FOOTER-- -->
+    <section class="footer" id="Footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta nostrum delectus illum reprehenderit reiciendis <br> excepturi fugit praesentium, dolorem, impedit quidem architecto consequuntu.</p>
+  
+        <h2>Polytechnic University of the <br> Philippines</h2>
+        <a href=""><img src="PUP-images/PUPLogo.png" alt=""></a>
+        <div class="icons">
+          <a href="https://www.facebook.com/ThePUPOfficial"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://twitter.com/thepupofficial"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.instagram.com/thepupofficial/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/school/polytechnic-university-of-the-philippines/"><i class="fa-brands fa-linkedin"></i></a>
+          
+          
+      
+  
+  
+        <h5>&copy; 2023 PUP | BY: DANILO B. PELASO JR.</h5>
+  
+       
+      </section>
+
+    
+
+      
+
+
+
+    
+</body>
+</html>
